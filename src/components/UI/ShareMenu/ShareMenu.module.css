@@ -1,0 +1,137 @@
+.container {
+  display: grid;
+  grid-template-rows: 5rem 1fr;
+  height: auto;
+  width: 38rem;
+  margin: auto;
+}
+
+.UploadPopUp{
+  position: absolute;
+  left: 35%;
+  top: 10%;
+}
+
+.tabsCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: max-content;
+  margin: auto;
+}
+
+.tabsCon .MuiTabs-indicator {
+  color: red;
+}
+
+.webContainer {
+  display: grid;
+  row-gap: 2rem;
+  grid-template-rows: 1fr 0.5fr 1.6fr;
+}
+.webTypo {
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+.topWeb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topBottom {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 3fr 1fr;
+}
+.topBut,
+.centerBut {
+  width: 10rem;
+  background-color: white;
+  color: black;
+  height: 100%;
+  border: 1px solid;
+  text-transform: capitalize;
+}
+.top {
+  display: grid;
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+}
+.centerWeb {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.centerBut {
+  background-color: rgb(192, 192, 192);
+  border: none;
+}
+.centerBut:hover {
+  background-color: rgb(218, 218, 218);
+}
+.bottom {
+  display: grid;
+  row-gap: 1rem;
+}
+.bottomTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userList {
+  display: grid;
+  row-gap: 1rem;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.username {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialCont {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  align-items: center;
+  height: 15rem;
+}
+.socialtop {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 90%;
+  margin: auto;
+  gap: 3rem;
+}
+.icon {
+  font-size: 2rem;
+  color: gray;
+}
+.EmbedContainer {
+  display: grid;
+  grid-template-rows: 0.5fr 1.75fr;
+  min-height: 15rem;
+  row-gap: 2rem;
+}
+.EmbedTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.embedBottom {
+  border: 3.5px dotted blue;
+  padding: 1rem;
+}
+.embedInner {
+  border: 2px solid blue;
+  height: 100%;
+  width: 100%;
+}

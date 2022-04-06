@@ -1,0 +1,436 @@
+.profileHeroContainer {
+  background-image: url("../../../../public/images/creator/banner.png");
+  display: flex;
+  justify-content: flex-end !important;
+  background-position: center center;
+  max-width: 1450px;
+  max-height: 350px;
+  background-repeat: no-repeat;
+  // position: relative;
+}
+// .bg-img {
+//   width: 100%;
+//   height: 1452px;
+//   /* height: 110%; */
+//   background-image: url("../../assets/img/main/VITAMIN.png");
+//   width: 100%;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+// }
+.profileHeroContainerOverlay {
+  background: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.profileHeroContainerOverlay:hover {
+  visibility: visible;
+}
+
+.profileDetailsContainer {
+  margin-top: -60px;
+  padding: 0.6rem;
+  z-index: 2;
+}
+
+.profileDetailsSection {
+  padding-top: 8px !important;
+  padding-left: 10px !important;
+}
+
+.walletAddressContainer {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 0 !important;
+  color: #949494 !important;
+}
+
+.bioContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bio {
+  display: block !important;
+  font-size: 0.8rem !important;
+  font-family: Kern;
+  font-style: italic;
+  font-weight: normal;
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #535151 !important ;
+}
+
+.editBioText {
+  font-family: "KernRegular" !important;
+  font-size: 0.8rem !important;
+  font-style: italic;
+  max-width: 200px;
+  color: #535151 !important ;
+}
+
+.textLowercase {
+  text-transform: lowercase !important;
+}
+
+.starIcon {
+  color: white;
+}
+.pencilIcon {
+  color: #bdbdbd;
+}
+
+.fontBold {
+  font-weight: bold !important;
+}
+
+.displayImageContainer {
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.displayImageContainer > div {
+  height: inherit;
+  position: unset !important;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.displayImage {
+  object-fit: cover;
+  width: 100% !important;
+  position: relative !important;
+  height: unset;
+  border-radius: 50%;
+  box-shadow: 3px 9px 18px -10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.displayNameContainer {
+  padding-left: 0 !important;
+  display: flex;
+}
+
+.displayName {
+  font-weight: bold !important;
+  margin-right: 10px;
+  font-family: "KernBold" !important;
+  word-break: break-all;
+  display: inline;
+
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.curatorName {
+  margin-right: 10px;
+  font-family: "KernBold";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.022em;
+
+  color: #ffffff;
+  /* identical to box height */
+}
+.editDisplayBox {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  max-width: 200px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #ffffff;
+}
+.editDisplayBox:focus {
+  outline: none;
+}
+
+.editBioText {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.editBioText:focus {
+  outline: none;
+}
+
+.profileBasicContainer {
+  padding: 0 !important;
+}
+
+.profileCardContainer,
+.profileCardContainerGrey {
+  display: block !important;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: 4px !important;
+}
+
+.profileCardContainerGrey {
+  padding: 1.1rem 0;
+  margin-left:0.5rem;
+  background: rgba(196, 196, 196, 0.1);
+}
+
+.profileCardTitle {
+  font-size: 1.4rem !important;
+  margin-bottom: 25px !important;
+  margin-left: 1.1rem !important;
+  color: #3e3e3e !important;
+}
+.profileCardTitleSecond {
+  font-size: 1.4rem !important;
+  margin-bottom: 25px !important;
+  color: #3e3e3e !important;
+}
+.profileCardTitleMuted {
+  font-size: 1.4rem !important;
+  font-family: KernRegular !important;
+  margin-bottom: 25px !important;
+}
+
+.textFieldContainer {
+  display: block !important;
+  margin-bottom: 20px !important;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+.textFieldContainerSecond {
+  display: block !important;
+  margin-bottom: 20px !important;
+  padding-right: 2rem;
+}
+
+.textFieldContainerFlex {
+  display: flex !important;
+  margin-bottom: 20px !important;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+.textFieldContainerFlex > p {
+  width: 100px;
+}
+
+.profileCardButton {
+  background-color: transparent !important;
+  text-decoration: underline !important;
+  text-transform: capitalize !important;
+  border: none !important;
+}
+
+.profileCardButtonAdd {
+  background-color: transparent !important;
+  font-family: "Kern" !important;
+  text-transform: capitalize !important;
+  border: none !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+.profileCardButtonAdd > span > svg {
+  margin-right: 12px !important;
+}
+
+.supportArticleCard {
+  padding: 1.7rem;
+  background: rgba(196, 196, 196, 0.1);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: block !important;
+}
+.supportArticleCardTitle {
+  font-family: "KernBold" !important;
+  margin-bottom: 0.9rem !important;
+  font-size: 1.1rem !important;
+}
+.supportArticleCardContent {
+  font-family: "KernRegular" !important;
+  margin-bottom: 0.6rem;
+  line-height: 1.7 !important;
+}
+
+.exhibitionTableBodyRow {
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: 8px;
+  margin-bottom: 7px;
+}
+
+.exhibitionTableSpacing,
+.exhibitionTableBodyRow {
+  padding: 0.6rem 2rem;
+  flex-wrap: nowrap !important;
+}
+
+.teamMembersListContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar,
+.avatarAddIcon {
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 90px !important;
+  object-fit: cover;
+  width: 90px !important;
+}
+.avatarAddIcon {
+  background-color: #f5f5f5 !important;
+  color: #6f6f6f !important;
+  cursor: pointer;
+}
+
+.activeStatus {
+  color: #baf8d2;
+}
+.inActiveStatus {
+  color: red;
+}
+
+.overflowDiv {
+  overflow: auto;
+}
+
+.blueChip {
+  background-color: #bae5f8 !important;
+}
+.purpleChip {
+  background-color: #e3d4ea !important;
+}
+.greenChip {
+  background-color: #baf8cf !important;
+}
+.redChip {
+  background-color: #f8baba !important;
+}
+
+.blueChip,
+.purpleChip,
+.greenChip,
+.redChip {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+.bg-img {
+  width: 100%;
+  height: 350px;
+  /* height: 110%; */
+  background-image: url("../../../../public/images/creator/banner.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media screen and (max-width: 1552px) {
+  .profileHeroContainer {
+    height: 350px;
+    width: 100%;
+  }
+  .displayImageContainer > div {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .profileHeroContainer {
+    height: 310px;
+  }
+  .displayImageContainer > div {
+    height: 260px;
+    width: 260px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .profileHeroContainer {
+    height: 260px;
+  }
+  .displayImageContainer > div {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .profileHeroContainer {
+    height: 200px;
+  }
+  .displayImageContainer > div {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 578px) {
+  // .profileHeroContainer {
+  //   height: 270px;
+  // }
+  .profileDetailsContainer {
+    margin-top: -150px;
+    padding: 0.9rem;
+    margin-bottom: 20px;
+  }
+  .profileDetailsSection {
+    padding-top: 90px !important;
+    padding-left: 20px !important;
+  }
+  .displayImageContainer {
+    height: 160px;
+    margin-top: 80px;
+  }
+  .walletAddressContainer {
+    justify-content: flex-end;
+  }
+  .displayName {
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+  }
+  .editDisplayBox {
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+    font-family: "KernBold";
+  }
+  .bio {
+    font-size: 0.9rem !important;
+    font-family: "KernRegular" !important;
+  }
+  .editBioText {
+    font-size: 0.9rem !important;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .displayImageContainer {
+    height: 250px;
+    margin-top: 0;
+  }
+  .editDisplayBox {
+    max-width: 600px;
+  }
+
+  .editBioText {
+    max-width: 750px;
+  }
+  .profileDetailsSection {
+    padding-top: 70px !important;
+  }
+  .walletAddressContainer {
+    margin-top: 20px;
+  }
+}

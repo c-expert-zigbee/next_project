@@ -1,0 +1,49 @@
+.root {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  color: #000000;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+.rootThree {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  color: #000000;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.rootTwo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4px;
+  color: black;
+  background-color: #dcdce0;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.input {
+  margin-left: 10px;
+  flex: 1;
+  color: white;
+}
+.inputTwo {
+  margin-left: 10px;
+  flex: 1;
+  color: black;
+}
+.iconButton {
+  padding: 10;
+}
+.iconButtonTwo {
+  color: white;
+  padding: 5px;
+}

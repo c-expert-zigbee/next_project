@@ -1,0 +1,29 @@
+.greySwirl {
+  // width: 100% !important;
+  height: 250px !important;
+  width: 250px !important;
+  border: 0.936588px solid #74BEC4;
+  border-radius: 50%;
+  padding-left: 12px;
+  position: relative;
+}
+
+.greySwirl > div {
+  border-radius: 50%;
+  background: grey;
+  height: inherit;
+  position: unset !important;
+}
+
+.image {
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 4px !important;
+  margin-top: 9px !important;
+  object-fit: cover;
+  width: 100% !important;
+  position: relative !important;
+  height: unset;
+
+}

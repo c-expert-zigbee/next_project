@@ -1,0 +1,142 @@
+.collection {
+  width: 18rem;
+  height: min-content;
+  padding: 1rem;
+  display: grid;
+  row-gap: 0.5rem;
+  border-radius: 0.75rem;
+}
+.collectionHead {
+  font-size: 2rem;
+}
+.collectionButton {
+  color: black;
+  padding: 0.15rem 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 40%;
+}
+.creators {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.avatar {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.creatorGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.creatorTypo {
+  font-size: 0.5rem;
+  color: black;
+}
+.assets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.totalassets,
+.Ptotalassets {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  row-gap: 0.5rem;
+}
+.Pavatar {
+  width: 4rem;
+  height: 4rem;
+}
+.profileheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profileHead {
+  font-size: 0.8rem;
+  margin: auto;
+}
+.Pcreators {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.Ptotalassets {
+  margin: 0;
+  row-gap: 1rem;
+}
+.passet {
+  margin: 0;
+}
+.CPavatar {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.Cprofileheader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Cuser {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.CSettings,
+.CreateSettings {
+  display: grid;
+  row-gap: 1rem;
+}
+.CSettings {
+  padding-bottom: 5rem;
+}
+.CLog,
+.CreateLog {
+  padding-top: 0.5rem;
+}
+.CreateLog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.asset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.asset p {
+  font-weight: bold;
+}
+.assetMinMax {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.assetMinMax span {
+  /* height: 10px; */
+  width: 2rem;
+  border: 1px solid lightgray;
+}
+.assetRestore {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: gray;
+}
+.assetTextSelect {
+  display: grid;
+  gap: 2rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}

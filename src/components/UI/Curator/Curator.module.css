@@ -1,0 +1,84 @@
+.container {
+  height: auto;
+  width: 82rem;
+  margin: auto;
+  display: grid;
+  padding: 2rem;
+  grid-template-rows: 1fr 3fr;
+}
+.UploadPopUp {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+.wait {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.top {
+  display: flex;
+  gap: 1rem;
+}
+.icon {
+  font-size: 2.5rem;
+}
+.bottomIP {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 1rem;
+}
+.bottomCenter {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.card {
+  width: 100%;
+  height: 217px;
+  border-radius: 15px;
+  background: #f9eeffd3;
+  border: 1px solid #f5e9e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+.cloudIcon {
+  font-size: 5rem;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 2rem;
+}
+.creator {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.createBut {
+  display: flex;
+  flex-flow: row wrap;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.input {
+  background-color: #e0fcff;
+}
+.contcreat {
+  display: flex;
+  width: 10rem;
+  align-items: center;
+  justify-content: space-around;
+}

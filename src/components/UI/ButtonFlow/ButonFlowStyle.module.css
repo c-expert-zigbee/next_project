@@ -1,0 +1,48 @@
+.ButtonContainer {
+  display: flex;
+  row-gap: 1rem;
+  margin-top: 6rem;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5rem;
+}
+.selected {
+  font-family: KernBold;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.022em;
+  text-align: center;
+  cursor: pointer;
+  background: #e5e5e5;
+  height: 64px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.unselected {
+  font-family: Kern;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.022em;
+  text-align: left;
+  /* // cursor: pointer; */
+  background: #e5e5e5;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 75px;
+  color: black;
+}
+.unselected:hover {
+  background-color: #e5e5e5;
+}

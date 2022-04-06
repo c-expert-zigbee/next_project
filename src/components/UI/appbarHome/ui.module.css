@@ -1,0 +1,459 @@
+.artcyprion {
+  font-family: HafferBold;
+  font-size: 48px;
+  font-weight: 600;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+.imageHolderContainer {
+  position: relative;
+  height: 330px;
+  max-width: 100%;
+}
+.imageArtcryption {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mainAppabr {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.close-button {
+  float: right;
+  margin-top: 16px;
+  margin-right: 60px;
+}
+
+.imageHolder {
+  max-width: 100%;
+}
+.blueHolder {
+  border-radius: 20px !important;
+  max-width: 400px !important;
+  width: 100% !important;
+  height: 550px !important;
+  padding: 0px !important;
+  /* background-color: #bddfeb !important; */
+  /* top: 0;
+  display: flex;
+  justify-content: center; */
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 80px;
+}
+.liteVersion {
+  color: rgba(55, 53, 47, 0.6);
+  font-size: 14px;
+  font-family: KernRegular;
+}
+.headingArtCrytion {
+  font-family: HafferBold;
+  font-size: 110px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.footerCont {
+  /* background-color: #ececec; */
+  background-color: #dcdce0;
+}
+.footer_max_width {
+  max-width: 1440px;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.headFooter {
+  font-family: KernBold;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.subFooter {
+  font-family: KernRegular;
+  font-size: 21px;
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.subFooterJoinNewsLetter {
+  font-family: KernBold;
+  font-size: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.paddingLeft {
+  padding-left: 50px;
+}
+#input-container {
+  position: relative;
+}
+
+#input-container > img {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+
+#input-container > input {
+  padding-left: 40px;
+}
+.textFiled {
+  border-radius: 10px;
+}
+.lowerfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerWords {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: KernRegular;
+  text-align: right;
+  color: #1e1e1e;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.capitializeWord {
+  text-transform: capitalize;
+}
+.imageIcon {
+  font-family: KernRegular;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 17px;
+}
+.footerIconsSection {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .res-pad {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .subFooterJoinNewsLetter {
+    /* font-size: 16px; */
+  }
+  .subFooter {
+    /* font-size: 12px; */
+  }
+  .paddingLeft {
+    padding-left: 10px;
+  }
+  .footerContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-evenly;
+  }
+  .mainAppabr {
+    padding-left: 20px;
+  }
+  .close-button {
+    margin-right: 10px;
+  }
+  .imageHolder {
+    margin-left: 0px;
+    width: 80%;
+  }
+  .blueHolder {
+    width: 65%;
+    margin-left: 0px !important;
+  }
+}
+
+/* appbar starts here */
+
+.appBarHomeFlexBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blackButtonAppbarHome {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 204px;
+  height: 55px;
+
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  font-family: KernMedium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.blackButtonFooterrHome {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 128px;
+  height: 42px;
+  /* margin-right: 120px; */
+  /* margin-top: 5px; */
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  font-family: KernMedium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.artCryptionHead {
+  font-family: KernBold !important;
+  font-size: 26px;
+  margin-left: 15px;
+  text-transform: lowercase;
+
+  font-style: normal;
+
+  font-size: 32px;
+  line-height: 24px;
+}
+.artCryptionHeadSmallDrawer {
+  font-family: HafferBold;
+  font-size: 32px;
+}
+.imageIconGuy {
+  width: 40.09px;
+  height: 57.12px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.grid_options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #292d32;
+  font-size: 13px;
+  padding-left: 90px;
+  padding-top: 6px;
+}
+.logoholder {
+  display: flex;
+  align-items: center !important;
+  padding-left: 105px;
+  /* padding-top: 5px; */
+  /* padding-top: 10px; */
+}
+.grid-profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.imgProfile {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+  font-family: KernMedium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem !important;
+  /* line-height: 28px; */
+}
+
+.pointer > span {
+  font-family: KernMedium;
+  font-size: 1rem !important;
+}
+.divNotionCorp {
+  height: 29px;
+}
+
+.artCryptionImageFooterContainerNew {
+  position: absolute;
+  top: -0px;
+  right: 50px;
+}
+
+.middleNameFooter {
+  padding-left: 50px;
+  font-family: KernRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.44px;
+
+  color: #1e1e1e;
+}
+.secondColumnFooter {
+  padding-left: 90px;
+  font-family: KernRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.16px;
+  padding-bottom: 20px;
+
+  color: #000000;
+}
+.footerDescriptionBelow {
+  font-family: KernRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 20px;
+  /* or 140% */
+
+  color: #000000;
+
+  padding-left: 40px;
+}
+
+.secondcolfooternew {
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .secondcolfooternew {
+    padding-left: 5px;
+  }
+  .footerDescriptionBelow {
+    padding-left: 5px;
+  }
+  .secondColumnFooter {
+    padding-left: 5px;
+  }
+
+  .responsiveClass {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .headingArtCrytion {
+    font-size: 60px;
+    padding-left: 5px;
+  }
+  .middleNameFooter {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .footerWords {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .footerIconsSection {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    width: 100%;
+  }
+}
+
+.artCryptionHeadDrawer {
+  font-family: KernRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  display: flex;
+  align-items: center;
+
+  color: #292d32;
+}
+
+@media only screen and (max-width: 600px) {
+  .artCryptionImageFooterContainerNew {
+    top: 90px;
+    right: -10px;
+  }
+  .grid-profile {
+    visibility: hidden;
+  }
+  .grid_options {
+    visibility: hidden;
+  }
+
+  .logoholder {
+    padding-left: 0;
+  }
+  .container {
+    margin-top: 0;
+  }
+}
+
+/* TABS START HERE */
+
+.tabCustom {
+  font-family: "KernRegular" !important;
+  color: #000000;
+  text-transform: none;
+  font-size: 18px;
+  margin-bottom: -18px;
+}
+.tabCustomTwo {
+  font-family: "KernRegular" !important;
+  color: #000000;
+  text-transform: none;
+  font-size: 18px;
+  margin-bottom: -20px;
+}
+
+/* .gridAppbarBigScreen {
+  display: clamp(none, none);
+} */
+
+.newsLettteFooterText {
+  margin-top: -20px;
+  font-family: KernBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: 0.16px;
+
+  color: #000000;
+  padding-bottom: 20px;
+}
+.footerevents {
+  width: 80%;
+  font-family: KernRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 160% */
+
+  color: #6f6f6f;
+}
